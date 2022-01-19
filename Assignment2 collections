@@ -33,6 +33,7 @@ public class OrganizationId implements Comparator<Organization> {
 	public int compare(Organization o1, Organization o2) {
 		
 		return o1.id-o2.id;
+		
 	}
 
 }
@@ -113,5 +114,4 @@ public class OrganizationMain  {
         System.exit(0);		
 	}		
 	}
-
 }
